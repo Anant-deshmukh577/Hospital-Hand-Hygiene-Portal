@@ -1,5 +1,5 @@
 const envBaseUrlRaw = process.env.EXPO_PUBLIC_API_URL?.trim();
-const defaultBaseUrlRaw = 'https://hospital-hand-hygiene-portal-backend.onrender.com/api';
+const defaultBaseUrlRaw = 'https://hospital-hand-hygiene-portal-backend-gfnh.onrender.com/api';
 
 function normalizeApiBaseUrl(raw) {
   if (!raw) return raw;
